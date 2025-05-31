@@ -1,0 +1,41 @@
+# Ignore Python cache files (if any)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore Docker related files
+*.log
+*.pid
+*.sock
+
+# Ignore Docker volumes and data directories
+/data/
+**/data/
+
+# Ignore environment files with secrets or sensitive info
+.env
+.env.local
+.env.*.local
+
+# Ignore Docker Compose override files (if you use them)
+docker-compose.override.yml
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore editor/IDE config files
+.vscode/
+.idea/
+*.swp
+*~
+
+# Ignore local config override files for searxng
+searxng_custom.yml
+
+# Ignore any compiled binaries or build artifacts
+*.exe
+*.dll
+*.so
+*.dylib
+
